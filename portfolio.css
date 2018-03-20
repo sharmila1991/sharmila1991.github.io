@@ -1,0 +1,120 @@
+:root {
+    font-size: 16px;
+	font-family: 'Amita';
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+	background:#cce6ff; 
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction: column;
+    margin: 5vw; 	
+}
+
+.card{	
+    display: flex;
+	flex-wrap:wrap;
+}
+
+.card .heading{	
+    font-size: 4rem;
+	color:#333333;
+    font-weight: 700;
+    margin-bottom: 1vh;
+    padding: 6vw;
+}
+
+.card .my-pic{
+	margin-left:10vw;
+	margin-bottom: 1vh;
+    padding: 5vw;
+	width:20vw;
+	height:20vw;
+	border-radius:50%
+}
+
+.experience {
+	background:#e6f3ff;
+	display:flex;
+	flex-direction:column;
+	flex-wrap:wrap;
+	padding: 7vw;
+	font-size: 1rem;
+	align-items:center; 
+}
+
+.my-logo{
+	width:10vw;
+	height:5vw;
+}
+.logo{
+	width:17vw;
+	height:4vw;
+}
+.java-logo{
+	width:7vw;
+	height:7vw;
+}
+
+.interests{
+	display:flex;
+	flex-wrap:wrap; 
+	padding: 7vw;
+	font-size: 1rem;
+	
+}
+
+.Hobby{
+	background:#e6f3ff;
+	display:flex;
+	flex-wrap:wrap;
+	padding: 7vw;
+	flex-direction:row-reverse; 
+}
+
+.Hobby .my-image{
+	width:15vw;
+	height:15vw;
+}
+
+.Hobby .paragraph{ 
+	font-size:1rem; 
+ } 
+
+.contact{	
+	display:flex;
+	flex-direction:column;
+	flex-wrap:wrap;
+	padding: 5vw;
+	margin-left:5vw;
+}
+
+ @media only screen and (max-width:728px) { 
+   
+    .card .my-pic{  
+		 width:60vw;  
+		 height:60vw;  
+	} 
+	
+	.Hobby {   
+		  flex-direction:column; 
+		 align-items:center; 
+	} 
+	.my-logo{
+	width:20vw;
+	height:7vw;
+	}
+	.logo{
+		width:29vw;
+		height:7vw;
+	}
+	.java-logo{
+		width:11vw;
+		height:11vw;
+	}
+ }
